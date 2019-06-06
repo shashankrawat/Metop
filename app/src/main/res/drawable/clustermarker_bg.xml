@@ -1,0 +1,27 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <padding
+                android:bottom="2dp"
+                android:left="2dp"
+                android:right="2dp"
+                android:top="2dp" />
+            <size android:height="50dp"
+                android:width="50dp"/>
+
+            <solid android:color="@color/colorwhite" />
+            <corners android:radius="3dp" />
+            <stroke android:color="@color/colorwhite" android:width="2dp"/>
+        </shape>
+    </item>
+
+
+    <!-- Background Color (white) -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/colorlightblue" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+
+</layer-list>

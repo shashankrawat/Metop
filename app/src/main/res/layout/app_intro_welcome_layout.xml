@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorwhite">
+
+    <Button
+        android:id="@+id/skip_btn"
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/skipbtn_bg"
+        android:fontFamily="@font/lato_bold"
+        android:text="@string/skip"
+        android:textColor="@color/colorwhite"
+        android:textSize="12sp" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_Pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/buttom_lay"
+        android:layout_below="@+id/skip_btn">
+
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/buttom_lay"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/next_btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+            android:layout_weight="1"
+            android:background="@drawable/createbtn_back"
+            android:text="@string/next"
+            android:textColor="@color/colorwhite"
+            android:textSize="17sp" />
+
+        <LinearLayout
+            android:id="@+id/tv_dot"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:text="....." />
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#0893FC</color>
+
+    <color name="colorblack">#111111</color>
+    <color name="colorwhite">#FFFFFF</color>
+    <color name="colorlightblue">#0893FC</color>
+    <color name="colorgray">#5F5F5F</color>
+    <color name="colorpurple">#8C6CE7</color>
+    <color name="colorred">#FD3018</color>
+    <color name="hintcolor">#AFAFAF</color>
+    <color name="laybxack">#F6F6F6</color>
+    <color name="buttomlaycolor">#D5FFFFFF</color>
+    <color name="homeStatusbarcolor">#10000000</color>
+    <color name="layoutbacklight">#08000000</color>
+    <color name="profilehintcolor">#3F3F3F</color>
+    <color name="laybackcolor">#08000000</color>
+    <color name="colorgolden">#FF9C00</color>
+    <color name="transparent">#00000000</color>
+
+    <array name="array_dot_active">
+        <item>@color/colorlightblue</item>
+        <item>@color/colorlightblue</item>
+        <item>@color/colorlightblue</item>
+        <item>@color/colorlightblue</item>
+        <item>@color/colorlightblue</item>
+        <item>@color/colorlightblue</item>
+        <item>@color/colorlightblue</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/hintcolor</item>
+        <item>@color/hintcolor</item>
+        <item>@color/hintcolor</item>
+        <item>@color/hintcolor</item>
+        <item>@color/hintcolor</item>
+        <item>@color/hintcolor</item>
+        <item>@color/hintcolor</item>
+    </array>
+</resources>

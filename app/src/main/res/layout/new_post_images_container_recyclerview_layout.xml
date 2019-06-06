@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/container_top"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="6dp"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="0dp">
+
+        <ImageView
+            android:id="@+id/buy_or_sell_post_images"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/sampleimg">
+
+        </ImageView>
+    </android.support.v7.widget.CardView>
+
+    <ImageView
+        android:id="@+id/remove_post_image"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="65dp"
+        android:elevation="3dp"
+        tools:targetApi="lollipop" />
+
+    <TextView
+        android:id="@+id/image_path"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignLeft="@id/container_top"
+        android:layout_alignRight="@id/container_top"
+        android:layout_below="@+id/container_top"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/lato_regular"
+        android:gravity="center"
+        android:text="postimage.png"
+        android:textColor="@color/profilehintcolor"
+        android:textSize="8sp"
+        tools:targetApi="jelly_bean" />
+
+</RelativeLayout>

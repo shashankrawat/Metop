@@ -1,0 +1,91 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorlightblue</item>
+    </style>
+
+    <style name="gradientcolor" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary"></item>
+    </style>
+
+    <style name="SplashScreenTheme" parent="AppTheme">
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/colorpurple</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+    </style>
+
+    <style name="LoginScreenTheme" parent="AppTheme">
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/colorwhite</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="colorControlActivated">@color/colorpurple</item>
+    </style>
+
+    <style name="ForgotPasswordScreenTheme" parent="AppTheme">
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/colorwhite</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="colorControlActivated">@color/colorlightblue</item>
+    </style>
+
+    <style name="RegisterScreenTheme" parent="AppTheme">
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/colorwhite</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="colorControlActivated">@color/colorlightblue</item>
+    </style>
+
+    <style name="CommonScreenTheme" parent="AppTheme">
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/colorwhite</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+    </style>
+
+    <style name="AppIntroScreenTheme" parent="AppTheme">
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/layoutbacklight</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+    </style>
+
+    <style name="ProfileScreenTheme" parent="AppTheme">
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/colorlightblue</item>
+    </style>
+
+    <style name="HomeScreenTheme" parent="AppTheme">
+        <item name="android:textColor">@color/colorblack</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@android:color/transparent
+        </item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds" tools:targetApi="lollipop">true</item>
+    </style>
+
+    <style name="EditProfileScreenTheme" parent="AppTheme">
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/colorwhite</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="colorControlActivated">@color/colorlightblue</item>
+        <item name="colorAccent">@color/colorlightblue</item>
+    </style>
+
+    <style name="TextAppearance.App.TextInputLayout" parent="AppTheme">
+        <item name="colorControlNormal">@color/colorpurple</item>
+        <item name="colorControlActivated">@color/colorlightblue</item>
+        <item name="colorAccent">@color/colorpurple</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/hintcolor</item>
+        <item name="colorControlActivated">@color/colorgolden</item>
+    </style>
+
+    <style name="tabitemstyle">
+
+        <item name="android:textSize">13sp</item>
+        <item name="android:fontFamily" tools:ignore="NewApi">@font/lato_regular</item>
+    </style>
+
+
+    <style name="ProgressDialogStyle">
+        <item name="android:layout_gravity">center</item>
+        <item name="colorAccent">@color/colorlightblue</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

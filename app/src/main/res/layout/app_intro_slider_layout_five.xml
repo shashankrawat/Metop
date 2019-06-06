@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorwhite"
+    android:weightSum="5">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:fontFamily="@font/lato_regular"
+        android:gravity="center"
+        android:text="@string/post_your_need_and_offers"
+        android:textAllCaps="true"
+        android:textColor="@color/colorblack"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        app:srcCompat="@drawable/ic_post_your_needs" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:fontFamily="@font/lato_regular"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/request_or_offer_a_service"
+        android:textColor="@color/colorblack"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

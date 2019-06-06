@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_show_language"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/language_button_bg"
+    android:fontFamily="@font/lato_regular"
+    android:gravity="center"
+    android:paddingBottom="12dp"
+    android:textColor="@color/colorblack"
+    android:textSize="16sp">
+
+</TextView>

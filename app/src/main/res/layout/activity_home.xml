@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/container_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/buttomlay"
+        android:layout_marginBottom="2dp"
+       ></FrameLayout>
+
+
+    <LinearLayout
+        android:id="@+id/buttomlay"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/laybxack"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <ImageView
+            android:id="@+id/ic_home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="15dp"
+            app:srcCompat="@drawable/home_icon" />
+
+        <ImageView
+            android:id="@+id/ic_add"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="17dp"
+            app:srcCompat="@drawable/add_post_icon" />
+
+        <ImageView
+            android:id="@+id/ic_msg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="15dp"
+            app:srcCompat="@drawable/msg_icon" />
+
+        <ImageView
+            android:id="@+id/ic_profile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="15dp"
+            app:srcCompat="@drawable/profile_icon" />
+
+        <ImageView
+            android:id="@+id/ic_notifications"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="15dp"
+            app:srcCompat="@drawable/notification_icon" />
+    </LinearLayout>
+</RelativeLayout>

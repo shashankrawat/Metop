@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="1 Hr" />
+    <item android:title="2 Hrs" />
+    <item android:title="3 Hrs" />
+    <item android:title="4 Hrs" />
+    <item android:title="5 Hrs" />
+    <item android:title="6 Hrs" />
+    <item android:title="7 Hrs" />
+    <item android:title="8 Hrs" />
+    <item android:title="9 Hrs" />
+    <item android:title="10 Hrs" />
+    <item android:title="11 Hrs" />
+    <item android:title="12 Hrs" />
+    <item android:title="13 Hrs" />
+    <item android:title="14 Hrs" />
+    <item android:title="15 Hrs" />
+    <item android:title="16 Hrs" />
+    <item android:title="17 Hrs" />
+    <item android:title="18 Hrs" />
+    <item android:title="19 Hrs" />
+    <item android:title="20 Hrs" />
+    <item android:title="21 Hrs" />
+    <item android:title="22 Hrs" />
+    <item android:title="23 Hrs" />
+    <item android:title="24 Hrs" />
+</menu>

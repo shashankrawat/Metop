@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="1dp">
+
+
+    <LinearLayout
+        android:id="@+id/chat_left_msg_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/message_bg_white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/chat_left_msg_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"
+            android:fontFamily="@font/lato_regular"
+            android:text=""
+            android:textColor="@color/colorblack"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/left_msg_time_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/lato_regular"
+            android:text=""
+            android:textSize="10sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chat_right_msg_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/createbtn_back"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/chat_right_msg_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"
+            android:fontFamily="@font/lato_regular"
+            android:text=""
+            android:textColor="@color/colorwhite"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/right_msg_time_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/lato_regular"
+            android:text=""
+            android:textColor="@color/colorwhite"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+</LinearLayout>

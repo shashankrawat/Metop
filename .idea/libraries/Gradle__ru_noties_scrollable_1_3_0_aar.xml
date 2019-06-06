@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: ru.noties:scrollable:1.3.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/scrollable-1.3.0.aar/05635b8fa4b94a5950b9120c8b9ef628/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/scrollable-1.3.0.aar/05635b8fa4b94a5950b9120c8b9ef628/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ru.noties/scrollable/1.3.0/9058a4ff9c6e73e7b9bb971f9bdbbf71426786b5/scrollable-1.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.muditsen.multilevelrecyclerview:multilevelview:1.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/multilevelview-1.0.0.aar/f7d408fa683bc0513523b8be3fc8c49a/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/multilevelview-1.0.0.aar/f7d408fa683bc0513523b8be3fc8c49a/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.muditsen.multilevelrecyclerview/multilevelview/1.0.0/8aa9b8c3521a60eee384fea27b5a4350315684b8/multilevelview-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

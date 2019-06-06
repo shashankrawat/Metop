@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="6dp"
+    android:layout_marginTop="6dp"
+    android:gravity="center">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/post_image_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        app:cardCornerRadius="6dp">
+
+        <ImageView
+            android:id="@+id/iv_post_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/sample" />
+
+        <TextView
+            android:id="@+id/tv_post_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:fontFamily="@font/lato_regular"
+            android:padding="10dp"
+            android:text="22 days ago"
+            android:textColor="@color/colorwhite"
+            android:textSize="10sp" />
+    </android.support.v7.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/tv_post_type"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@+id/post_image_lay"
+        android:fontFamily="@font/lato_regular"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:gravity="center"
+        android:text="$ 62,0000"
+        android:textColor="@color/colorblack"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_totalviews"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginLeft="4dp"
+        android:layout_below="@+id/post_image_lay"
+        android:layout_toRightOf="@+id/tv_post_type"
+        android:fontFamily="@font/lato_regular"
+        android:gravity="center"
+        android:text="12"
+        android:drawableLeft="@drawable/ic_viewews"
+        android:drawablePadding="2dp"
+        android:textColor="@color/hintcolor"
+        android:textSize="12sp"
+        tools:targetApi="jelly_bean" />
+
+
+    <TextView
+        android:id="@+id/tv_comments"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginLeft="6dp"
+        android:layout_below="@+id/post_image_lay"
+        android:layout_toRightOf="@+id/tv_totalviews"
+        android:drawableLeft="@drawable/ic_conversation"
+        android:drawablePadding="2dp"
+        android:fontFamily="@font/lato_regular"
+        android:gravity="center"
+        android:text="45"
+        android:textColor="@color/hintcolor"
+        android:textSize="12sp" />
+
+
+    <TextView
+        android:id="@+id/tv_post_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_post_type"
+        android:fontFamily="@font/lato_regular"
+        android:paddingBottom="4dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:textColor="@color/hintcolor"
+        android:text="Yamaha R1 for Sale 2016 Model"
+        android:textSize="12sp" />
+
+</RelativeLayout>

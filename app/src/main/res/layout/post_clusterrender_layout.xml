@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="2dp"
+    android:layout_width="@dimen/custom_profile_image"
+    android:layout_height="@dimen/custom_profile_image"
+    android:gravity="center"
+    android:background="@drawable/clustermarker_bg">
+
+    <!--<ImageView-->
+        <!--android:id="@+id/image"-->
+        <!--android:padding="2dp"-->
+        <!--android:layout_width="@dimen/custom_profile_image"-->
+        <!--android:layout_height="@dimen/custom_profile_image"-->
+       <!--/>-->
+    <TextView
+        android:id="@id/amu_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorwhite"
+        android:fontFamily="@font/lato_bold"
+        android:textSize="16dp"
+        android:text="3"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post"
+        android:fontFamily="@font/lato_bold"
+        android:textSize="9sp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/amu_text"
+        android:textColor="@color/colorwhite"
+
+
+        />
+
+</LinearLayout>

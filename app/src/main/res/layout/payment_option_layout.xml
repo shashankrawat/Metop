@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorwhite">
+        <TextView
+            android:id="@+id/tv_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Pay"
+            android:padding="10dp"
+            android:textColor="@color/colorblack"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Cancel"
+            android:padding="10dp"
+            android:textColor="@color/colorblack"
+            android:textSize="18sp" />
+    <View
+        android:id="@+id/line1"
+        android:layout_below="@+id/tv_pay"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/layoutbacklight"/>
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line1"
+        app:srcCompat="@drawable/icon_logo"
+        android:padding="10dp"/>
+    <TextView
+        android:id="@+id/tv_heading"
+        android:layout_toRightOf="@+id/logo"
+        android:layout_below="@+id/line1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:text="@string/metatopos"
+        android:textColor="@color/colorblack"
+        android:textSize="14sp" />
+    <TextView
+        android:layout_below="@+id/tv_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_toRightOf="@id/logo"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Metatopos Subscription Plan"
+        android:textColor="@color/colorblack"
+        android:textSize="12sp" />
+
+    <View
+        android:id="@+id/line2"
+        android:layout_below="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/layoutbacklight"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+</RelativeLayout>

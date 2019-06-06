@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_Profile_pic"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/profilepicsample"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_online_user"
+        android:layout_alignRight="@+id/user_Profile_pic" />
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textSize="10sp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/hintcolor"
+        android:text="2 min ago"/>
+    <TextView
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="Sam Vega"
+        android:textColor="@color/colorblack"
+        android:layout_toRightOf="@+id/user_Profile_pic"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Commented on your post"
+        android:layout_toRightOf="@+id/user_Profile_pic"
+        android:textSize="10sp"
+        android:layout_below="@+id/tv_username"/>
+<View
+    android:layout_below="@+id/user_Profile_pic"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginTop="8dp"
+    android:background="@drawable/dividergradient"
+    />
+</RelativeLayout>

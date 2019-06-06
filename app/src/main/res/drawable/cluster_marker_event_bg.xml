@@ -1,0 +1,44 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <padding
+                android:bottom="2dp"
+                android:left="2dp"
+                android:right="2dp"
+                android:top="2dp" />
+            <size android:height="50dp"
+                android:width="50dp"/>
+
+            <solid android:color="@color/colorwhite" />
+            <corners android:radius="3dp" />
+            <stroke android:color="@color/colorlightblue" android:width="2dp"/>
+        </shape>
+    </item>
+
+
+    <!-- Background Color (white) -->
+    <item>
+        <shape android:shape="oval">
+            <padding
+                android:bottom="2dp"
+                android:left="2dp"
+                android:right="2dp"
+                android:top="2dp" />
+            <solid android:color="#ffffff"/>
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="oval">
+            <padding
+                android:bottom="10dp"
+                android:left="10dp"
+                android:right="10dp"
+                android:top="10dp" />
+            <solid android:color="@color/colorpurple" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+
+</layer-list>

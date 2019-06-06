@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    android:background="@drawable/post_ads_back"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/lato_semibold"
+        android:text="@string/advertisements"
+        android:textColor="@color/colorblack"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/advertisement_icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/lato_regular"
+        android:text="@string/podt_text"
+        android:textAlignment="center"
+        android:textColor="@color/colorblack"
+        android:textSize="14sp" />
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/hintcolor" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/postAdvertisement_btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@color/colorwhite"
+            android:fontFamily="@font/lato_regular"
+            android:gravity="center"
+            android:text="@string/post"
+            android:textAllCaps="false"
+            android:textColor="@color/colorlightblue" />
+
+        <Button
+            android:id="@+id/cancel_btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:background="@color/colorwhite"
+            android:fontFamily="@font/lato_regular"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textAllCaps="false"
+            android:textColor="@color/colorlightblue" />
+    </LinearLayout>
+</LinearLayout>
+

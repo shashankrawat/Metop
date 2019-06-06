@@ -1,0 +1,16 @@
+
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lblListItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:drawablePadding="10dp"
+    android:gravity="center_vertical"
+    android:minHeight="?android:attr/listPreferredItemHeightSmall"
+    android:paddingLeft="40dp"
+    android:paddingRight="10dp"
+    android:textSize="12sp"
+    android:fontFamily="@font/lato_regular"
+    android:textColor="@color/colorblack"
+    android:background="@color/colorwhite"/>
+

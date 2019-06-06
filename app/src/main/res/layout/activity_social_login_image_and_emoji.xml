@@ -1,0 +1,155 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorwhite"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/lato_bold"
+        android:text="Profile Photo and Genmoji"
+        android:textColor="@color/colorblack"
+        android:textSize="33sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/lato_regular"
+        android:text="Please add your profile photo and GenEmoji "
+        android:textColor="@color/hintcolor"
+        android:textSize="14sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/add_photo_lay"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_userProfilePic"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:src="@drawable/account_pic"
+                tools:ignore="VectorDrawableCompat" />
+
+            <ImageView
+                android:id="@+id/iv_uploadPic"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="28dp"
+                android:src="@drawable/add_photo_reg" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@id/iv_userProfilePic"
+                android:fontFamily="@font/lato_regular"
+                android:gravity="center"
+                android:text="@string/add_photo"
+                android:textColor="@color/hintcolor" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/add_genMoji_lay"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_toRightOf="@id/add_photo_lay"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_gen_Moji"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:src="@drawable/gen_moji"
+                tools:ignore="VectorDrawableCompat" />
+
+            <ImageView
+                android:id="@+id/iv_add_moji"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="25dp"
+                android:src="@drawable/add_photo_reg" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@id/iv_gen_Moji"
+                android:fontFamily="@font/lato_regular"
+                android:gravity="center"
+                android:text="@string/add_genmoji"
+                android:textColor="@color/hintcolor" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/createbtn_back"
+        android:fontFamily="@font/lato_regular"
+        android:text="@string/register"
+        android:textAllCaps="false"
+        android:textColor="@color/colorwhite"
+        android:textSize="16sp" />
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/dont_have_account"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/btn_register"-->
+    <!--android:layout_centerHorizontal="true"-->
+    <!--android:fontFamily="@font/lato_bold"-->
+    <!--android:text="@string/already_have_an_account"-->
+    <!--android:textColor="@color/hintcolor"-->
+    <!--android:textSize="14sp" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_login"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_below="@+id/btn_register"-->
+    <!--android:layout_marginLeft="5dp"-->
+    <!--android:layout_toEndOf="@+id/dont_have_account"-->
+    <!--android:layout_toRightOf="@+id/dont_have_account"-->
+    <!--android:fontFamily="@font/lato_bold"-->
+    <!--android:text="@string/login"-->
+    <!--android:textColor="@color/colorpurple"-->
+    <!--android:textSize="14sp" />-->
+    <!--</LinearLayout>-->
+</LinearLayout>
+
+    <!--<RelativeLayout--><!--android:id="@+id/buttomlay"--><!--android:paddingLeft="20dp"--><!--android:paddingRight="20dp"--><!--android:paddingBottom="20dp"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:layout_alignParentBottom="true"--><!--android:layout_marginTop="15dp"--><!--android:background="@color/colorwhite"--><!--android:gravity="center">--><!----><!--</RelativeLayout>-->
+
+
+
+

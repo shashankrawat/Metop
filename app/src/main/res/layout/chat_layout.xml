@@ -1,0 +1,134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/laybxack"
+    android:focusableInTouchMode="false"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/action_bar_lay"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:background="@color/colorwhite">
+
+        <ImageView
+            android:id="@+id/chat_backbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="5dp"
+            app:srcCompat="@drawable/ic_back" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/user_dp"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/chat_backbtn"
+            android:padding="5dp"
+            android:src="@drawable/profilepicsample" />
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/user_dp"
+            android:fontFamily="@font/lato_regular"
+            android:text=""
+            android:textColor="@color/colorblack"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:id="@+id/track_lay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp">
+
+
+            <ImageView
+                android:id="@+id/metatopos_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_live_tracking" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:layout_gravity="center"
+                android:textSize="14sp"
+                android:layout_marginLeft="4dp"
+                android:textColor="@color/colorlightblue"
+                android:fontFamily="@font/lato_regular"
+                android:text="@string/track"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/chat_timing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/action_bar_lay"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Today"
+        android:textSize="12sp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/chat_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/default_text_msg"
+        android:layout_below="@+id/chat_timing"
+        android:layout_marginBottom="5dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/default_text_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/send_msg_lay"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:paddingLeft="8dp">
+
+
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:id="@+id/send_msg_lay"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/send_msg_lay"
+        android:weightSum="6">
+
+        <EditText
+            android:id="@+id/ed_msg_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:fontFamily="@font/lato_regular"
+            android:gravity="center_vertical"
+            android:hint="@string/write_something_here"
+            android:paddingLeft="20dp"
+            android:textColor="@color/colorblack"
+            android:textColorHint="@color/hintcolor" />
+
+        <ImageView
+            android:id="@+id/msg_send_btn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:padding="10dp"
+            android:src="@drawable/button_send" />
+    </LinearLayout>
+</RelativeLayout>
+
+    <!--<ImageView--><!--android:id="@+id/iv_three_dot"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_alignParentRight="true"--><!--android:layout_centerVertical="true"--><!--android:layout_marginRight="15dp"--><!--app:srcCompat="@drawable/ic_more" />-->

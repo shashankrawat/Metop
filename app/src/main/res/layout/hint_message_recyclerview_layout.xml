@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:paddingRight="8dp">
+    <TextView
+        android:id="@+id/hint_messages"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:background="@drawable/hint_msg_back"
+        android:fontFamily="@font/lato_regular"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="I'm interested in buying this"
+        android:textColor="@color/colorwhite"
+        android:textSize="14sp">
+
+    </TextView>
+
+</RelativeLayout>

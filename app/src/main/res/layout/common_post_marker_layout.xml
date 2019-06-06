@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:animateLayoutChanges="true">
+
+    <ImageView
+        android:id="@+id/post_emoji"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/gen_moji"
+        android:elevation="2dp"
+        tools:targetApi="lollipop" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorwhite"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="20dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/post_emoji"
+        android:layout_toEndOf="@+id/post_emoji"
+        android:layout_marginLeft="-15dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="20dp"
+        android:layout_marginStart="-15dp"
+        android:animateLayoutChanges="true">
+
+        <TextView
+            android:id="@+id/post_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato_bold"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:text="Buy Iphone XS"
+            android:textAlignment="center"
+            android:textColor="@color/colorblack"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/post_views"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:drawablePadding="5dp"
+            android:layout_toRightOf="@+id/post_content"
+            android:fontFamily="@font/lato_regular"
+            android:drawableLeft="@drawable/ic_viewews"
+            android:layout_centerVertical="true"
+            android:text="2k"
+            android:textColor="@color/hintcolor"
+            android:textSize="10sp"
+            android:layout_toEndOf="@+id/post_content"
+            tools:targetApi="jelly_bean" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+

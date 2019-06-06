@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="items_array_expandable_level_one">
+        <item>Buy Or Sell</item>
+        <item>Services</item>
+        <item>Food and Groceries</item>
+        <item>Jobs</item>
+        <item>Sports and Entertainment</item>
+        <item>events</item>
+        <item>Adverstisements</item>
+        <item>Others</item>
+    </string-array>
+
+
+
+    <string-array name="items_array_expandable_level_one_one_child">
+        <item>Level 1.1.1</item>
+        <item>Level 1.1.2</item>
+        <item>Level 1.1.3</item>
+        <item>Level 1.1.4</item>
+        <item>Level 1.1.5</item>
+        <item>Level 1.1.6</item>
+        <item>Level 1.1.7</item>
+        <item>Level 1.1.8</item>
+    </string-array>
+    <string-array name="items_array_expandable_level_one_two_child">
+        <item>Level 1.2.1</item>
+        <item>Level 1.2.2</item>
+        <item>Level 1.2.3</item>
+    </string-array>
+    <string-array name="items_array_expandable_level_two">
+        <item>Cars</item>
+        <item> Electronic Devices</item>
+        <item>Equipment</item>
+        <item>Real Estate</item>
+
+    </string-array>
+    <string-array name="items_array_expandable_level_three">
+        <item>Jeep</item>
+        <item>Audi</item>
+        <item>Tesla</item>
+        <item>Nissan</item>
+        <item>Ford Mustange</item>
+
+
+    </string-array>
+</resources>
